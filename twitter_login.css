@@ -1,0 +1,63 @@
+body {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@300&display=swap");
+.login_box {
+  position: absolute;
+  left: 30%;
+  margin: 30px auto;
+}
+p {
+  color: #333;
+  opacity: 0.8;
+  margin-left: 5px;
+}
+.textbox {
+  width: 500px;
+  height: 70px;
+  background-color: #f5f8fa;
+  text-align: left;
+  border-bottom: 2px solid black;
+}
+.textbox:hover {
+  border-bottom: 2px solid#1da1f2;
+}
+.textbox:hover p {
+  color: #1da1f2;
+}
+
+img {
+  width: 50px;
+  height: 40px;
+}
+input.text_area {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+input.btn {
+  padding: 10px 0 10px 0;
+  width: 500px;
+  background-color: #8ed0f8;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.forgot_sign {
+  margin-top: 50px;
+  color: #1da1f2;
+  /* display: inline; */
+}
+.forgot_sign li {
+  display: inline;
+}
